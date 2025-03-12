@@ -1,0 +1,35 @@
+1️⃣ Set (Unordered, Mutable, Unique Values)
+A collection that is unordered and mutable (can change).
+Does not allow duplicate values.
+Uses curly braces { } or the set() function.
+
+✅ Example:
+numbers = {1, 2, 3, 3, 4}  
+print(numbers)  # {1, 2, 3, 4} (No duplicates)
+numbers.add(5)  
+print(numbers)  # {1, 2, 3, 4, 5}
+
+2️⃣ Frozenset (Unordered, Immutable, Unique Values)
+Same as a set, but immutable (cannot change after creation).
+Uses the frozenset() function.
+
+✅ Example:
+fs = frozenset({1, 2, 3, 4})
+# fs.add(5)  # ❌ Error: Frozenset cannot be changed
+print(fs)  # frozenset({1, 2, 3, 4})
+
+
+🔹 Quick Comparison
+Feature	              Set          	Frozenset
+Ordered?	            ❌ No	        ❌ No
+Changeable?         	✅ Yes	        ❌ No
+Duplicates Allowed?	  ❌ No	          ❌ No
+Uses	                { } or set()	  frozenset()
+Sets and frozensets are useful for handling unique values efficiently! 
+
+
+
+
+
+
+
