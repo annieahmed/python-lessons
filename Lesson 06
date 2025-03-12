@@ -7,6 +7,8 @@ Uses square brackets [ ].
 fruits = ["apple", "banana", "cherry"]
 fruits.append("orange")  # Add item
 print(fruits)  # ['apple', 'banana', 'cherry', 'orange']
+
+
 2️⃣ Tuple (Ordered, Unchangeable, Duplicates Allowed)
 A collection that is ordered but immutable (cannot change).
 Allows duplicate values.
@@ -15,6 +17,8 @@ Uses parentheses ( ).
 ✅ Example:
 colors = ("red", "blue", "green")
 print(colors[1])  # Output: blue
+
+
 3️⃣ Dictionary (Unordered, Key-Value Pairs, Unique Keys)
 A collection of key-value pairs.
 Keys must be unique, values can be changed.
@@ -23,12 +27,14 @@ Uses curly braces { }.
 ✅ Example:
 person = {"name": "John", "age": 25}
 print(person["name"])  # Output: John
+
+
 🔹 Quick Comparison
 Feature	               List         Tuple	       Dictionary
-Ordered	               ✅ Yes     	✅ Yes	    ❌ No (Python 3.7+ maintains order)
-Changeable	          ✅ Yes	     ❌ No	       ✅ Yes
+Ordered	              ✅ Yes       ✅ Yes	     ❌ No (Python 3.7+ maintains order)
+Changeable	          ✅ Yes	      ❌ No	       ✅ Yes
 Duplicates Allowed	  ✅ Yes       ✅ Yes	     ❌ No (Keys must be unique)
-Uses	                 [ ]	         ( )            	{ }
+Uses	                 [ ]	       ( )           { }
 These are important data structures in Python for storing and managing data! 
 
 
