@@ -32,7 +32,7 @@ print(person["name"])  # Output: John
 🔹 Quick Comparison
 Feature	               List         Tuple	       Dictionary
 Ordered	              ✅ Yes       ✅ Yes	     ❌ No (Python 3.7+ maintains order)
-Changeable	          ✅ Yes	      ❌ No	       ✅ Yes
+Changeable	        ✅ Yes	   ❌ No	          ✅ Yes
 Duplicates Allowed	  ✅ Yes       ✅ Yes	     ❌ No (Keys must be unique)
 Uses	                 [ ]	       ( )           { }
 These are important data structures in Python for storing and managing data! 
