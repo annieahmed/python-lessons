@@ -1,11 +1,10 @@
-Control Flow & Loops in Python
 1️⃣ Control Flow
 Control flow determines how the program executes based on conditions.
 
-Statement	Meaning	Example
-if	Executes code if condition is True	if age > 18:
-elif	Checks another condition if previous if was False	elif age == 18:
-else	Runs if all previous conditions are False	else: print("Not allowed")
+Statement	     Meaning                                                     Example
+if	          Executes code if condition is True   	                       if age > 18:
+elif	      Checks another condition if previous if was False	        elif age == 18:
+else	      Runs if all previous conditions are False	                else: print("Not allowed")
 
 ✅ Example
 age = 20
@@ -18,11 +17,11 @@ else:
 2️⃣ Loops
 Loops repeat a block of code multiple times.
 
-Loop Type	Meaning	Example
-for loop	Loops over a sequence (list, range, etc.)	for i in range(5):
-while loop	Loops while condition is True	while x < 10:
-break	Stops the loop immediately	if x == 5: break
-continue	Skips current iteration & moves to next	if x == 2: continue
+Loop Type	            Meaning	                                       Example
+for loop	        Loops over a sequence (list, range, etc.) 	    for i in range(5):
+while loop	        Loops while condition is True	                 while x < 10:
+break	            Stops the loop immediately                     	if x == 5: break
+continue	        Skips current iteration & moves to next	        if x == 2: continue
 
 ✅ Example: for Loop
 for i in range(5):
